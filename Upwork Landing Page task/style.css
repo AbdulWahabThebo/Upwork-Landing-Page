@@ -365,6 +365,20 @@ li a:hover {
     height: 350px;
     width: 79%;
     margin: 0px 0px 0px 9.7%;
-    background: linear-gradient(#e66465, #9198e5);
-border-radius: ;
+    background: linear-gradient(45deg,#e66465, #08f9ed);
+border-radius: 30px 30px 30px 150px ;
+}
+.upwork_gradient_logo{
+    display: inline-block;
+    width: 15%;
+    height: 30%;
+    background-color: white;
+    position: relative;
+    border-radius: 360px;
+    border: 13px solid;
+}
+.upwork_gradient_logo img{
+    width: 70%;
+    position: absolute;
+    margin: 16px 18px;
 }
