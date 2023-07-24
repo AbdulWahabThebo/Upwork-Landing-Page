@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'Arimo';
+    src: url('/Fonts/neue-montreal-regular.woff2');
+    font-family: "nato";
+    src: url('/Fonts/NotoSerifKhitanSmallScript-Regular.ttf');
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-width: thin;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    width: 100px;
+    margin-left: 15px;
+}
+
+header li {
+    font-family: 'arimo', sans-serif;
+    display: flex;
+    margin-left: 2rem;
+    font-size: 15px;
+}
+
+li img {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 12px;
+    margin-left: 77px;
+    margin-top: -35px;
+
+}
+
+li .dropdown-2 {
+    margin-left: 73px;
+}
+
+.dropdown-3 {
+    margin-left: 90px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    margin: 0 7rem;
+    ;
+}
+
+a {
+    color: black;
+    align-items: center;
+    margin-top: -40px;
+}
+
+.header_right_form {
+    display: flex;
+    position: absolute;
+    width: 40%;
+    align-items: center;
+    margin-left: 65.5%;
+    margin-top: -50px;
+    border: 1px solid rgba(191, 191, 191, 0.5);
+    border-radius: 30px 30px 30px 30px;
+    outline: none;
+    width: 357px;
+
+}
+
+.header_right_form input {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 0px solid #d5e0d5;
+    border-radius: 30px 30px 30px 30px;
+    position: relative;
+    padding: 12px 40px 10px 40px;
+    text-indent: 0px;
+    outline: none;
+    cursor: text;
+
+}
+
+.header_right_form .search-icon {
+    position: absolute;
+    display: inline-block;
+    align-items: center;
+    top: 9px;
+    left: 7px;
+    width: 25px;
+
+}
+
+.header_right_form input::placeholder {
+    font-family: 'arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+}
+
+.dropdown {
+    background-color: rgb(255, 255, 255, 0.3);
+    border: 0px solid #d5e0d5;
+    font-family: 'arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 30px 30px 30px;
+    padding: 10px 42.5px 10px 26px;
+    outline: 0px solid rgba(0, 0, 0, 0.5);
+}
+
+.dropdown_1 {
+    position: absolute;
+    width: 12px;
+    margin-top: 4px;
+    margin-left: 6px;
+}
+
+.header_right_form:hover {
+    background-color: rgba(172, 172, 172, 0.5);
+
+}
+
+.header_right_form input:hover {
+    background-color: rgba(188, 206, 224, 0.811);
+    outline: none;
+
+}
+
+.header_right_form input:focus {
+    outline: 2px solid #d5e0d5;
+
+}
+
+.vertical-line {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(188, 206, 224, 0.811);
+}
+
+.header_right_form .dropdown:hover {
+    background-color: rgba(188, 206, 224, 0.811);
+    outline: 2px solid #d5e0d5;
+}
+
+li a:hover {
+    color: green;
+}
+
+.Buttons {
+    display: inline-block;
+    position: absolute;
+    margin-left: 88.3%;
+    margin-top: -40px;
+}
+
+.Buttons .login {
+    font-family: 'arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.Buttons .signup {
+    border: 1px solid #108a00;
+    background-color: #108a00;
+    font-family: 'arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border-radius: 30px 30px 30px;
+    padding: 10px 22px 10px 22px;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.Buttons .signup:hover {
+    border: 1px solid #14a800;
+    background-color: #14a800;
+}
+
+.dropdown-1:hover,
+.dropdown-2:hover,
+.dropdown-3:hover {
+    transform: rotate(180deg);
+    transition-delay: 30ms;
+    transform-style: preserve-3d;
+    cursor: pointer;
+}
+
+.section_1_wrapper {
+    display: inline-block;
+    width: 100%;
+    margin-top: 4.3%;
+    margin-left: -105px;
+
+}
+
+.section-1-top {
+    position: relative;
+    display: flex;
+    box-sizing: border-box;
+
+
+}
+
+.section_1_top_list_item {
+    font-family: 'arimo', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    cursor: pointer;
+    letter-spacing: 0.4px;
+    line-height: 20px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    padding: 10px 10px 10px 10px;
+    text-align: left;
+    text-decoration-line: none;
+    text-decoration-color: rgb(0, 30, 0);
+    text-decoration-style: solid;
+    text-decoration-thickness: auto;
+
+
+}
+
+.dropdown_top_list_item {
+    width: 12px;
+    margin-top: -0.93%;
+    margin-left: 38px;
+}
+
+.section_1_top_list_item:hover {
+    text-decoration: underline;
+}
+
+.more:hover {
+    text-decoration: none;
+}
+
+.img-item:hover {
+    transform: rotate(180deg);
+    transition-delay: 30ms;
+    cursor: pointer;
+}
+
+.section_1_bottom {
+    display: flex;
+    float: left;
+    clear: both;
+    position: relative;
+    margin: 4% 0% 0% 9.5%;
+}
+
+.section_1_bottom_left .tittle-1 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 400;
+    font-size: 80px;
+    color: rgb(20, 168, 0);
+    text-align: left;
+    letter-spacing: -2.8px;
+    line-height: 80px;
+    word-break: break-word;
+}
+
+.section_1_bottom_left .tittle-3 {
+    box-sizing: border-box;
+    font-family: 'arimo', sans-serif;
+    font-size: 20.5px;
+    font-weight: 500;
+    color: #5f6e57;
+    line-height: 32px;
+    letter-spacing: 0.24px;
+}
+
+.get-started-btn {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: 550;
+    border: 2px solid #108a00;
+    background-color: #108a00;
+    color: white;
+    border-radius: 20px 20px;
+    height: 40px;
+    width: 130px;
+    padding: 0px 20px 0px 20px;
+    margin-top: 5%;
+    margin-bottom: 19%;
+    line-height: 39px;
+}
+
+.get-started-btn:hover {
+    border: 2px solid #14a800;
+    background-color: #14a800;
+    transition-delay: 15ms;
+}
+
+.section_1_bottom_companies_logo .tittle-4 {
+    font-family: 'arimo', sans-serif;
+    font-size: 17.49px;
+    font-weight: lighter;
+    color: #9dad9a;
+    line-height: 40px;
+    letter-spacing: 0.50px;
+}
+
+.section_1_bottom_companies_logo .microsoft {
+    width: 105px;
+    margin-left: 4px;
+    margin-right: 20px;
+}
+
+.section_1_bottom_companies_logo .airbnb {
+    width: 85px;
+    margin-left: 4px;
+    margin-right: 20px;
+}
+
+.section_1_bottom_companies_logo .bissel {
+    width: 55px;
+    margin-left: 4px;
+}
+
+.section_1_bottom .section_1_bottom_right {
+    float: right;
+    clear: both;
+    position: absolute;
+    margin-left: 840px;
+    margin-top: -4%;
+}
+
+.section_1_bottom_right img {
+    height: auto;
+    width: 450px;
+}
+
+.box_with_gradient {
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    height: 400px;
+    width: 100%;
+    margin: auto;
+    margin-top: 38%;
+    background-color: black;
+}
+
+.box_with_gradient .gradient_box_back {
+    height: 350px;
+    width: 79%;
+    margin: 0px 0px 0px 9.7%;
+    background: linear-gradient(#e66465, #9198e5);
+border-radius: ;
+}
