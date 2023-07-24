@@ -206,6 +206,7 @@ li a:hover {
 
 .section_1_wrapper {
     display: inline-block;
+    position: static;
     width: 100%;
     margin-top: 4.3%;
     margin-left: -105px;
@@ -354,31 +355,84 @@ li a:hover {
     display: flex;
     position: relative;
     box-sizing: border-box;
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin: auto;
-    margin-top: 38%;
-    background-color: black;
+    margin-top: 40%;
 }
 
 .box_with_gradient .gradient_box_back {
-    height: 350px;
+    height: 400px;
     width: 79%;
     margin: 0px 0px 0px 9.7%;
-    background: linear-gradient(45deg,#e66465, #08f9ed);
-border-radius: 30px 30px 30px 150px ;
+    background: linear-gradient(45deg, #e66465, #08f9ed);
+    border-radius: 20px 20px 20px 150px;
 }
-.upwork_gradient_logo{
+
+.upwork_gradient_logo {
     display: inline-block;
-    width: 15%;
-    height: 30%;
+    width: 8%;
+    height: 25%;
     background-color: white;
-    position: relative;
-    border-radius: 360px;
-    border: 13px solid;
-}
-.upwork_gradient_logo img{
-    width: 70%;
     position: absolute;
-    margin: 16px 18px;
+    border-radius: 360px;
+    margin: 210px 0px 0px 220px;
+}
+
+.upwork_gradient_logo img {
+    width: 100%;
+    position: relative;
+    margin: 1px 0px 1px -1px;
+
+}
+
+.upwork_chatbot_chatbox {
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    margin: 190px 0px 0px 380px;
+    width: 980px;
+    height: 300px;
+    border-radius: 30px 30px 30px 0px;
+    text-align: center;
+}
+
+.beta_badge {
+    display: block;
+    background-color: #13544e;
+    color: white;
+    width: 3.5%;
+    border-radius: 15px 15px;
+    align-items: center;
+    text-align: center;
+    font-family: 'arimo', sans-serif;
+    font-size: 12px;
+    padding: 4px 0px;
+    position: absolute;
+    margin: 20px 0px 0px 1160px;
+}
+
+.tittle_box{
+    display: inline-block;
+    width: auto;
+    margin-top: 60px;
+}
+ .gradient_box_title {
+    font-family: 'Vollkorn', serif;
+    font-weight: 600;
+    font-size: 55px;
+    color: #13544e;
+    letter-spacing: 0.34px;
+    word-spacing: -4px;
+    padding-left: 30px;
+}
+
+.gradient_box_text {
+    font-family: 'arimo', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    color: #13544e;
+    letter-spacing: 0.34px;
+    padding-left: 40px;
+    line-height: -normal;
 }
