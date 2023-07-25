@@ -13,6 +13,7 @@
     box-sizing: border-box;
 }
 
+/* ========================================Header================================ */
 header {
     position: fixed;
     width: 100%;
@@ -20,6 +21,7 @@ header {
 
 }
 
+/* ========================================Header-Left-Side-Nav-Bar================================ */
 .Container {
     display: flex;
     align-items: center;
@@ -71,6 +73,7 @@ a {
     margin-top: -40px;
 }
 
+/* ========================================Header-Right-Side-Nav-Bar================================ */
 .header_right_form {
     display: flex;
     position: absolute;
@@ -204,6 +207,7 @@ li a:hover {
     cursor: pointer;
 }
 
+/* ========================================Nav-Bar-Bottom-Section================================ */
 .section_1_wrapper {
     display: inline-block;
     position: static;
@@ -261,6 +265,7 @@ li a:hover {
     cursor: pointer;
 }
 
+/* ========================================Bottom-Left-Tittle-Section================================ */
 .section_1_bottom {
     display: flex;
     float: left;
@@ -312,6 +317,7 @@ li a:hover {
     transition-delay: 15ms;
 }
 
+/* ========================================Bottom-companies-logo-Section================================ */
 .section_1_bottom_companies_logo .tittle-4 {
     font-family: 'arimo', sans-serif;
     font-size: 17.49px;
@@ -338,6 +344,7 @@ li a:hover {
     margin-left: 4px;
 }
 
+/* ========================================Bottom-Right-Image-Section================================ */
 .section_1_bottom .section_1_bottom_right {
     float: right;
     clear: both;
@@ -351,6 +358,7 @@ li a:hover {
     width: 450px;
 }
 
+/* ========================================Gradient-Box-Section================================ */
 .box_with_gradient {
     display: flex;
     position: relative;
@@ -365,9 +373,26 @@ li a:hover {
     height: 400px;
     width: 79%;
     margin: 0px 0px 0px 9.7%;
-    background: linear-gradient(45deg, #e66465, #08f9ed);
+    background: linear-gradient(270deg, #e66465, #50fdf4, #57dbf5, #ed7c7c);
     border-radius: 20px 20px 20px 150px;
+    animation: gradient 8s ease-in-out infinite;
+    background-size: 300% 300%;
 }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
 
 .upwork_gradient_logo {
     display: inline-block;
@@ -412,12 +437,13 @@ li a:hover {
     margin: 20px 0px 0px 1160px;
 }
 
-.tittle_box{
+.tittle_box {
     display: inline-block;
     width: auto;
     margin-top: 60px;
 }
- .gradient_box_title {
+
+.gradient_box_title {
     font-family: 'Vollkorn', serif;
     font-weight: 600;
     font-size: 55px;
@@ -434,5 +460,84 @@ li a:hover {
     color: #13544e;
     letter-spacing: 0.34px;
     padding-left: 40px;
-    line-height: -normal;
+    line-height: normal;
+}
+
+/* ========================================Chatbox-box-Section================================ */
+.upwork_chatbot_chatbox {
+    box-sizing: border-box;
+    background-color: white;
+    position: absolute;
+    margin: 190px 0px 0px 380px;
+    width: 980px;
+    height: 300px;
+    border-radius: 30px 30px 30px 30px;
+    text-align: left;
+    box-shadow: 5px 5px 25px grey;
+
+}
+
+.chatbot_paragraph {
+    font-family: 'arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.34px;
+    word-spacing: 1px;
+    position: absolute;
+    margin: 15px 0px 0px 13px;
+
+}
+
+.Chatbot_input {
+    position: absolute;
+    margin: 230px 50px 0px 13px;
+    width: 950px;
+    height: 50px;
+    border-radius: 50px;
+    background-image: url('./Images/search_FILL0_wght400_GRAD0_opsz48.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    text-indent: 12px;
+
+}
+
+.Chatbot_input::placeholder {
+    font-family: 'arimo', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-indent: 12px;
+
+}
+
+/* ==================================Category_Section==============================
+=============================================== */
+
+.section_3_category{
+    display: flex;
+    position: sticky;
+    background-color: #5f6e57;
+    width: 100%;
+    height: 450px;
+
+}
+.Catergoy_section h1{
+    font-family: 'Vollkorn', serif;
+    font-size: 35px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 165px;
+    margin-top: 25px;
+letter-spacing: 1px;
+}
+.after_heading_text_section{
+    font-family: 'arimo', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    font-style: normal;
+    margin-left: 165px;
+    line-height: 0px;
+    margin-top: -12px;
+
 }
